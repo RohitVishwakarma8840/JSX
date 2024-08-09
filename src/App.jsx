@@ -1,13 +1,11 @@
 import { useState } from 'react'
 
 import './App.css'
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import SecondPage from './Components/SecondPage';
+import Card from './Components/Card';
 
 function App() {
 
-  const data=["jake","rohit rover","jutta","selena gomez"];
+  // const data=["jake","rohit rover","jutta","selena gomez"];
 
   return (
     <>
@@ -18,16 +16,20 @@ function App() {
       {/* <div className="px-3 py-4 bg-zinc-300 rounded-md w-fit">hey</div> */}
       {/* </div> */}
 
-     <div>
+
+ {/* // How to show data dynamically like you understand  */}
+
+     {/* <div>
      {data.map((elem,index)=>(
       <div key={index} className="px-3 py-4 bg-zinc-300 rounded-md w-fit">{elem}</div>
      ))}
 
-     </div>
+     </div> */}
 
-     <Navbar/>
+     {/* <Navbar/>
      <Hero/>
-     <SecondPage/>
+     <SecondPage/> */}
+     <Card/>
 
 
 
