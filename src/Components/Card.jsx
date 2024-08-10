@@ -33,7 +33,7 @@ const data=[
         <div className="w-full px-3 py-4 ">
           <h2>{elem.name}</h2>
           <p>{elem.description}</p>
-          <button className='px-4 py-1 bg-blue-600 '>
+          <button className= {`px-4 py-1 ${elem.instock ? 'bg-blue-600' :'bg-red-600' } rounded`}>
             {elem.instock ? "In Stock " : "Out of Stock"}
             </button>
         </div>
